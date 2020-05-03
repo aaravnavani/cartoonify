@@ -1,8 +1,8 @@
-#Introduction
+# Introduction
 
 In this project, I used OpenCV and python to make an image look cartooned. 
 
-#Explanation of Code
+# Explanation of Code
 
 We first read in the image using the imread function: 
 
@@ -32,7 +32,7 @@ gray = cv2.medianBlur(gray, 5)
 We then apply an adaptive threshold. This algorithm determines the threshold for a pixel based on a small region. Thus, we get different thresholds for different parts of an image, which gives better results for images with poor or varying illumination. 
 
 
-##Color##
+## Color ##
 
 We then apply a bilateral filter to the image using the following line of code: 
 
