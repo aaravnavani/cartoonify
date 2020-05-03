@@ -51,16 +51,16 @@ Finally, we use the bitwise_and function to combine the color and the edges foun
 
 We are now ready to run the code. The next three lines "print" the cartooned image on the screen. We can see some examples of the cartooning working: 
 
-## Original Image##
+## Original Image 
 ![Tim Cook](tim.jpg)
 
-## Cartoonized Image##
+## Cartoonized Image
 ![Tim Cook Cartoonized](tim1.jpg)
 
-## Original Image##
+## Original Image 
 ![Mountain](mountain.jpg)
 
-## Cartoonized Image##
+## Cartoonized Image 
 ![Cartoonized Mountain](mountain1.jpg)
 
 
