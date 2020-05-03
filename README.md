@@ -11,7 +11,7 @@ img = cv2.imread("tim.jpg")
 
 ```
 
-##Edges##
+## Edges
 
 We first convert the input image to grayscale using this line: 
 
@@ -32,7 +32,7 @@ gray = cv2.medianBlur(gray, 5)
 We then apply an adaptive threshold. This algorithm determines the threshold for a pixel based on a small region. Thus, we get different thresholds for different parts of an image, which gives better results for images with poor or varying illumination. 
 
 
-## Color ##
+## Color
 
 We then apply a bilateral filter to the image using the following line of code: 
 
@@ -43,24 +43,24 @@ color = cv2.bilateralFilter(img, 9, 100, 100)
 
 This (again) smoothens the images and reduces noise, while also preserving edges. The bilateral filter uses a Gaussian filter. This Gausiaan function makes sure that the only pixels that are far aprt are considered for the filter. You can read more about how exactly the bilateral filter works [here]: https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_filtering/py_filtering.html
 
-##Cartoon##
+## Cartoon 
 
 Finally, we use the bitwise_and function to combine the color and the edges found in the first part of the code.
 
-#Running the code##
+# Running the code
 
 We are now ready to run the code. The next three lines "print" the cartooned image on the screen. We can see some examples of the cartooning working: 
 
-##Original Image##
+## Original Image##
 ![Tim Cook](tim.jpg)
 
-##Cartoonized Image##
+## Cartoonized Image##
 ![Tim Cook Cartoonized](tim1.jpg)
 
-##Original Image##
+## Original Image##
 ![Mountain](mountain.jpg)
 
-##Cartoonized Image##
+## Cartoonized Image##
 ![Cartoonized Mountain](mountain1.jpg)
 
 
