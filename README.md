@@ -68,7 +68,7 @@ We are now ready to run the code. The next three lines "print" the cartooned ima
 
 Note: The cartoonization of the image works best on images of size 400 by 400 pixels.  
 
-## Sources
+# Sources
 
 https://docs.opencv.org/master/d7/d4d/tutorial_py_thresholding.html
 
